@@ -2,7 +2,7 @@
 
 Start it when the meeting starts. Watch the cost tick up live on an airport split-flap mechanical board.
 
-Live link: https://meeting-cost-clock.vercel.app
+Live link: https://meeting-cost-clock-rouge.vercel.app
 
 ![Meeting Cost Clock Screenshot](docs/screenshot.png)
 
