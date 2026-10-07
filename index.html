@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting Cost Clock — Live Split-Flap Ticker</title>
+    <meta name="description" content="Start it when the meeting starts. Watch the financial cost tick up live on an airport split-flap mechanical counter." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#111215" />
+
+    <!-- Open Graph & Twitter -->
+    <meta property="og:title" content="Meeting Cost Clock — Live Split-Flap Ticker" />
+    <meta property="og:description" content="Start it when the meeting starts. Watch the financial cost tick up live on an airport split-flap mechanical counter." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://meeting-cost-clock.vercel.app/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Meeting Cost Clock" />
+    <meta name="twitter:description" content="Start it when the meeting starts. Watch the financial cost tick up live." />
+    <meta name="twitter:image" content="https://meeting-cost-clock.vercel.app/og.png" />
+    <script>
+      try {
+        var og = document.querySelector('meta[property="og:image"]');
+        if (og && window.location && window.location.origin) {
+          og.setAttribute('content', new URL('/og.png', window.location.origin).href);
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div style="background:#111215;color:#f3f4f6;padding:32px 16px;text-align:center;font-family:monospace;border-bottom:2px solid #f59e0b;">
+        Meeting Cost Clock requires JavaScript to run the live split-flap counter and compute real-time costs.
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
