@@ -197,11 +197,11 @@ export const App: React.FC = () => {
         <div>
           Open source at{' '}
           <a
-            href="https://github.com/muttaqi-builds/meeting-cost-clock"
+            href="https://github.com/iammuttaqi/meeting-cost-clock"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/muttaqi-builds/meeting-cost-clock
+            github.com/iammuttaqi/meeting-cost-clock
           </a>
         </div>
       </footer>
